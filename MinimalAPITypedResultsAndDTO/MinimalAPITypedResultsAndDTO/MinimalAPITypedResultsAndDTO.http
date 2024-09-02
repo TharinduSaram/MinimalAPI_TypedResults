@@ -1,0 +1,14 @@
+﻿@MinimalAPITypedResultsAndDTO_HostAddress = https://localhost:7288
+
+POST {{MinimalAPITypedResultsAndDTO_HostAddress}}/todoitems/
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+###
+
+GET {{MinimalAPITypedResultsAndDTO_HostAddress}}/todoitems/
+
+###
